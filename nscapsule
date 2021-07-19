@@ -1,0 +1,18 @@
+clearscreen.
+set drogues to "No".
+set runmode to "Flying".
+lock steering to up.
+
+until runmode = "Landed"{
+	if alt:radar < 1000 and drogues = "No" {
+		stage.
+		set drogues to "Yes".
+	}
+	if alt:radar < 500 {
+		toggle ag1.
+	}
+	if alt:radar < 5 {
+		stage.
+		set runmode to "Landed".
+	}
+}
