@@ -17,6 +17,7 @@ The nscapsule.ks script reorients the capsule, waits until it reaches the proppe
 The boot.ks file opens the kOS Terminal of the booster's processor directly after launching the vessel. This only works if you right-click the kOS-processor located at the top of the first stage's tank and select boot file "boot.ks".
 
 ///NOTES///
+
 -> You have to lock the hinge of the landing gear manually, if you want to lower the chance of the booster tipping over after landing.
 
 -> Tested in Kerbal Space Program Version 1.12.
