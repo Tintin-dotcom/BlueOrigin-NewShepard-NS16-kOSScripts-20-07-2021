@@ -16,6 +16,10 @@ The nscapsule.ks script reorients the capsule, waits until it reaches the proppe
 
 The boot.ks file opens the kOS Terminal of the booster's processor directly after launching the vessel. This only works if you right-click the kOS-processor located at the top of the first stage's tank and select boot file "boot.ks".
 
+As for the RealPlume configs, I modified the one for the Thud liquid fuel engine, if you want to use it, go to the /KSP/GameData/RealPlume-Stock/Squad directory, and replace the old one with it. You should keep the old config file somewhere so that you can switch them again if you want to. The new config file makes the plume much closer to Blue Origin's BE-3 engine's plume.
+
+There is also a config file for the SmokeScreen mod, a dependency of RealPlume. It has to be in the /KSP/GameData/SmokeScreen directory, and all it does is increasing the particle limit from 1000 to 3000.
+
 ///NOTES///
 
 -> You have to lock the hinge of the landing gear manually, if you want to lower the chance of the booster tipping over after landing.
