@@ -4,7 +4,8 @@ Craft files for the rocket, and a version without the parts needed for kOS, are 
 
 The modified configs for the RealPlume Mod used in the video, are also included.
 
-Link to Youtube video: 
+Link to Youtube video:
+https://www.youtube.com/watch?v=qdy5kJDJF6k
 
 This is the Kerbal Operating System code for a New Shepard rocket launch.
 
